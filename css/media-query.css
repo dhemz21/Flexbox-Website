@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .header .container {
+      flex-direction: column;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .boxes .container {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  @media (max-width:415px){
+    .navbar .logo i{
+        display: none;
+    }
+    .header img{
+        height: 230px;
+    }
+    .navbar ul li{
+        margin-right: 10px;
+    }
+  }
+
+  @media (max-width:351px){
+    .header img{
+        height: 210px;
+    }
+    .navbar .logo{
+        font-size: 20px;
+    }
+    .navbar a{
+        font-size: 14px;
+    }
+  }

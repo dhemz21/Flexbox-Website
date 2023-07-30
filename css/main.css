@@ -1,0 +1,80 @@
+.navbar{
+    background-color: #DC0000;
+    color: #fff;
+    height: 60px;
+}
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.navbar a:hover{
+    color: black;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin-right: 20px;
+}
+
+.header{
+    background-color: #FA9884;
+    color: #fff;
+    min-height: 400px;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header img{
+    max-width: 400px;
+    margin-top: 16px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+.header img:hover{
+    box-shadow: 0 10px 20px #313131;  
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box:hover{
+    box-shadow: 0 10px 20px #313131;  
+}
+
+.box{
+    flex: 1;
+    background-color: #850000;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.box i{
+    margin-right: 10px;
+}
